@@ -1,1 +1,0 @@
-console.log("beda beda s gitom")
