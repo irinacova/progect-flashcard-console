@@ -2,7 +2,7 @@ const helloFromAppJS = require('./app')
 const hello1 = require('./index22')
 
 console.log('Hello,world!');
-console.log('Hello from ilovegit branch');
+
 
 helloFromAppJS()
 
