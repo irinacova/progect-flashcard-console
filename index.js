@@ -1,12 +1,13 @@
 const helloFromAppJS = require('./app')
+const hello1 = require('./index22')
+
 console.log('Hello,world!');
 
 
+helloFromAppJS()
 
+const conflict = 'i want conflict to happen'
 
-const lot= "mmmmeebjbdcsoi";
+console.log(conflict)
 
-console.log(lot);
-
-
-
+hello1(conflict)
