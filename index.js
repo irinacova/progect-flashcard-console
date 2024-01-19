@@ -25,7 +25,7 @@ inquirer
     {
       type: 'input',
       name: 'username',
-      message: 'Введите имя:',
+      message: 'Введите имя (кириллицей):',
       validate(input) {
         const done = this.async();
         if (input.match(/[а-яёА-ЯЁ]/gi)) {
